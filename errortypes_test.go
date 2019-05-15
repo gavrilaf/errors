@@ -9,7 +9,7 @@ import (
 	"reflect"
 	"runtime"
 
-	"github.com/juju/errors"
+	"github.com/gavrilaf/errors"
 	jc "github.com/juju/testing/checkers"
 	gc "gopkg.in/check.v1"
 )

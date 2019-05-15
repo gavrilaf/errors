@@ -268,11 +268,11 @@ func Details(err error) string {
 // from the call stack is used in the output.
 //
 //     first error
-//     github.com/juju/errors/annotation_test.go:193:
-//     github.com/juju/errors/annotation_test.go:194: annotation
-//     github.com/juju/errors/annotation_test.go:195:
-//     github.com/juju/errors/annotation_test.go:196: more context
-//     github.com/juju/errors/annotation_test.go:197:
+//     github.com/gavrilaf/errors/annotation_test.go:193:
+//     github.com/gavrilaf/errors/annotation_test.go:194: annotation
+//     github.com/gavrilaf/errors/annotation_test.go:195:
+//     github.com/gavrilaf/errors/annotation_test.go:196: more context
+//     github.com/gavrilaf/errors/annotation_test.go:197:
 func ErrorStack(err error) string {
 	return strings.Join(errorStack(err), "\n")
 }

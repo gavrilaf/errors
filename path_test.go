@@ -8,7 +8,7 @@ import (
 
 	gc "gopkg.in/check.v1"
 
-	"github.com/juju/errors"
+	"github.com/gavrilaf/errors"
 )
 
 type pathSuite struct{}
